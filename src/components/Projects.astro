@@ -12,6 +12,7 @@ import Rails from "./icons/Rails.astro"
 import React from "./icons/React.astro"
 import SQS from "./icons/SQS.astro"
 import Python from "./icons/Python.astro"
+import Expo from "./icons/Expo.astro"
 const TAGS = {
   NEXT: {
     name: "Next.js",
@@ -58,10 +59,15 @@ const TAGS = {
     class: "bg-white text-black",
     icon: SQS,
   },
-  Python: {
+  PYTHON: {
     name: "Python",
     class: "bg-white text-black",
     icon: Python
+  },
+  EXPO: {
+    name: "Expo",
+    class: "bg-white text-black",
+    icon: Expo
   }
 }
 const PROJECTS = [
@@ -69,8 +75,8 @@ const PROJECTS = [
     title: "Mejoras en los pipelines de CI/CD de la gitlab",
     description:
       "Tras llegar a una nueva empresa, empiezo a detectar como los pipelines de gitlab, que se encargan de desplegar las aplicaciones, no están optimizados. Tras un análisis, propongo una serie de mejoras que permiten reducir el tiempo de despliegue de 45 minutos a 7-8 minutos. El problema residia en la manera que se gestionaba la base de datos, que se truncaba despues de cada test de rspec y volvia a crear despues de cada test. Tras cambiar la estrategia de despliegue y el database cleaner junto con rspec, conseguí reducir el tiempo de despliegue a 7-8 minutos.",
-    // link: "https://svgl.vercel.app/",
-    // github: "https://github.com/pheralb/svgl",
+    link: "",
+    github: "",
     image: "/projects/svgl.webp",
     tags: [TAGS.GITLAB, TAGS.RSPEC, TAGS.RUBY],
   },
@@ -78,7 +84,7 @@ const PROJECTS = [
     title: "Dockerización de una aplicación Ruby on Rails para arquitecturas ARM64 y mysql 5.8 sin soporte para ARM64",
     description:
       "Tras la llegada de nuevos equipos a la empresa, se plantea la necesidad de dockerizar una aplicación Ruby on Rails que se conecta a una base de datos mysql 5.8. El problema es que mysql 5.8 no tiene soporte para arquitecturas ARM64, por lo que se plantea la necesidad de crear una imagen de mysql 5.8 para ARM64. Tras una serie de pruebas, se consigue dockerizar la aplicación Ruby on Rails y la base de datos mysql 5.8 para arquitecturas ARM64 emulando servicios, lo que permite a los nuevos equipos trabajar en la aplicación sin problemas.",
-    // link: "https://adventjs.dev",
+    link: "",
     image: "/projects/adventjs.webp",
     tags: [TAGS.DOCKER, TAGS.RAILS],
   },
@@ -86,31 +92,25 @@ const PROJECTS = [
     title: "Migración de una aplicacion a ReactNative y Rails",
     description:
       "En Beruby me dieron un reto, crear una nueva aplicación que fuera facilmente mantenible y escalable. Tras un análisis, se decidió migrar la aplicación a ReactNative que se conectaba al monolito existente de Rails. Tras un proceso de 2 meses, se consiguió migrar la aplicación a ReactNative y Rails, lo que permitió a los equipos de desarrollo trabajar de manera más eficiente y escalable. Actualmente, la aplicación se encuentra en producción y se sigue trabajando en ella",
-    // link: "https://adventjs.dev",
+    link: "",
     image: "/projects/adventjs.webp",
-    tags: [TAGS.REACT, TAGS.RAILS],
+    tags: [TAGS.REACT, TAGS.RAILS, TAGS.EXPO],
   },
   {
     title: "Creación de un api Proxy en python, rails y AWS SQS",
     description:
       "En mi última empresa, se planteó la necesidad de crear un api proxy que se conectara a un servicio externo y que permitiera a los equipos de desarrollo trabajar de manera más eficiente. Tras un análisis, se decidió crear un api proxy en python que se conectaba a un servicio externo y que se comunicaba con el monolito de Rails a través de AWS SQS. Tras un proceso de 2 semanas, se consiguió crear el api proxy en python, rails y AWS SQS, lo que permitió a los equipos de desarrollo trabajar de manera más eficiente y escalable. Actualmente, el api proxy se encuentra en producción y se sigue trabajando en él",
-    // link: "https://adventjs.dev",
+    link: "",
     image: "/projects/adventjs.webp",
-    tags: [TAGS.SQS, TAGS.RAILS, TAGS.Python],
+    tags: [TAGS.SQS, TAGS.RAILS, TAGS.PYTHON],
   }
 ]
 ---
 
 <div class="flex flex-col gap-y-16">
   {
-    PROJECTS.map(({ image, title, description, tags, link, github }) => (
-  //   <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
-  // <div class="w-full md:w-1/2">
-  //   <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
-  //     <img alt="Recién llegado vs 5 años en Nueva Zelanda" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
-  //   </div>
-  // </div>
-
+    PROJECTS.map(({ title, description, tags, link, github }) => (
+  <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
   <div class="w-full">
     <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
       {title}
