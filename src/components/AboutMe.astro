@@ -1,29 +1,26 @@
 ---
- const personalImageAlt = "Miguel Ángel"
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const personalImageAlt = "Adán González - Desarrollador Web Full Stack";
 ---
 
-<article class="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row">
+<article
+  class="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row"
+>
   <div
     class="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1"
   >
-  <p>
-    Hola, soy Adán. Mi aventura en el mundo de la programación comenzó con Visual Basic cuando tenía poco más de 20 años. A lo largo del tiempo, me he especializado en lenguajes como <strong>Ruby, Python, y JavaScript</strong>.
-</p>
-<p>
-    Aunque mi sueño siempre fue ser programador de videojuegos, crecí en un pequeño pueblo casi deshabitado en Tenerife, una hermosa isla en España, donde las oportunidades en ese campo eran limitadas. Por lo tanto, me volqué en la programación web, especializándome en el desarrollo de aplicaciones web y móviles.
-</p>
-<p>
-    A lo largo de mi carrera, he tenido el privilegio de trabajar en diversas empresas, lo que ha enriquecido mi conocimiento y me ha permitido colaborar con grandes partners como <strong>Microsoft, Apple, Coca-Cola, Airbnb, UiPath, y Blueprism</strong>. Actualmente, estoy en busca de nuevos retos y oportunidades donde pueda aplicar y expandir todos mis conocimientos e ideas.
-</p>
-<p>
-    Como desarrollador, he trabajado con una amplia gama de tecnologías, incluyendo <strong>Rails, React, React Native (con Expo), Laravel, FastAPI, MongoDB, MySQL, PostgreSQL, Docker, Redis, y AWS SQS</strong>, entre otras.
-</p>
-<p>
-    Fuera del trabajo, soy un apasionado del surf y la música. Me encanta programar y disfruto enormemente de pasar tiempo con mi familia. Además, soy un entusiasta de los campings en furgoneta, lo cual me permite combinar mi amor por la naturaleza y la aventura.
-</p>
-
+    <span set:html={t("about.myself")} />
   </div>
 
-  <img width="200" height="200" src="/about.jpg" alt={personalImageAlt} class="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20 " style="object-position: 50% 50%">
-
+  <img
+    width="200"
+    height="200"
+    src="/about.jpg"
+    alt={personalImageAlt}
+    class="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20"
+    style="object-position: 50% 50%"
+  />
 </article>

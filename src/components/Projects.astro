@@ -2,146 +2,143 @@
 import GitHub from "./icons/GitHub.astro"
 import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
-import Ruby from "./icons/Ruby.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
-import Rspec from "./icons/Rspec.astro"
-import Docker from "./icons/Docker.astro"
-import Gitlab from "./icons/Gitlab.astro"
-import Rails from "./icons/Rails.astro"
-import React from "./icons/React.astro"
-import SQS from "./icons/SQS.astro"
-import Python from "./icons/Python.astro"
-import Expo from "./icons/Expo.astro"
-const TAGS = {
-  NEXT: {
+import Ruby from "./icons/Ruby.astro";
+import Rspec from "./icons/Rspec.astro";
+import Docker from "./icons/Docker.astro";
+import Gitlab from "./icons/Gitlab.astro";
+import Rails from "./icons/Rails.astro";
+import React from "./icons/React.astro";
+import SQS from "./icons/SQS.astro";
+import Python from "./icons/Python.astro";
+import Expo from "./icons/Expo.astro";
+import { getLangFromUrl, useTranslations } from "@/i18n/utils"
+
+type tLang = (str: any) => any;
+
+const lang = getLangFromUrl(Astro.url)
+const t:tLang = useTranslations(lang);
+
+type TagType = {
+  name: string;
+  class: string;
+  icon: (_props: Record<string, any>) => any;
+};
+
+type TagsType = {
+  [key: string]: TagType;
+};
+
+const TAGS: TagsType = {
+  nextjs: {
     name: "Next.js",
     class: "bg-black text-white",
     icon: NextJS
   },
-  TAILWIND: {
+  tailwindcss: {
     name: "Tailwind CSS",
     class: "bg-[#003159] text-white",
     icon: Tailwind
   },
-  RSPEC: {
+  rspec: {
     name: "RSpec",
     class: "bg-white text-black",
     icon: Rspec
   },
-  RUBY: {
+  ruby: {
     name: "Ruby",
     class: "bg-white text-black",
     icon: Ruby
   },
-  GITLAB: {
-    name: "Rails",
+  gitlab: {
+    name: "GitLab",
     class: "bg-white text-black",
     icon: Gitlab
   },
-  RAILS: {
+  rails: {
     name: "Rails",
     class: "bg-white text-black",
     icon: Rails
   },
-  DOCKER: {
+  docker: {
     name: "Docker",
     class: "bg-white text-black",
     icon: Docker
   },
-  REACT: {
+  react: {
     name: "React",
     class: "bg-white text-black",
     icon: React
   },
-  SQS: {
+  sqs: {
     name: "SQS",
     class: "bg-white text-black",
     icon: SQS,
   },
-  PYTHON: {
+  python: {
     name: "Python",
     class: "bg-white text-black",
     icon: Python
   },
-  EXPO: {
+  expo: {
     name: "Expo",
     class: "bg-white text-black",
     icon: Expo
   }
+};
+
+interface ProjectType {
+  image: string;
+  imageAlt: string;
+  title: string;
+  description: string;
+  tags: string[];
+  link?: string;
+  github?: string;
 }
-const PROJECTS = [
-  {
-    title: "Mejoras en los pipelines de CI/CD de la gitlab",
-    description:
-      "Tras llegar a una nueva empresa, empiezo a detectar como los pipelines de gitlab, que se encargan de desplegar las aplicaciones, no están optimizados. Tras un análisis, propongo una serie de mejoras que permiten reducir el tiempo de despliegue de 45 minutos a 7-8 minutos. El problema residia en la manera que se gestionaba la base de datos, que se truncaba despues de cada test de rspec y volvia a crear despues de cada test. Tras cambiar la estrategia de despliegue y el database cleaner junto con rspec, conseguí reducir el tiempo de despliegue a 7-8 minutos.",
-    link: "",
-    github: "",
-    image: "/projects/svgl.webp",
-    tags: [TAGS.GITLAB, TAGS.RSPEC, TAGS.RUBY],
-  },
-  {
-    title: "Dockerización de una aplicación Ruby on Rails para arquitecturas ARM64 y mysql 5.8 sin soporte para ARM64",
-    description:
-      "Tras la llegada de nuevos equipos a la empresa, se plantea la necesidad de dockerizar una aplicación Ruby on Rails que se conecta a una base de datos mysql 5.8. El problema es que mysql 5.8 no tiene soporte para arquitecturas ARM64, por lo que se plantea la necesidad de crear una imagen de mysql 5.8 para ARM64. Tras una serie de pruebas, se consigue dockerizar la aplicación Ruby on Rails y la base de datos mysql 5.8 para arquitecturas ARM64 emulando servicios, lo que permite a los nuevos equipos trabajar en la aplicación sin problemas.",
-    link: "",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.DOCKER, TAGS.RAILS],
-  },
-  {
-    title: "Migración de una aplicacion a ReactNative y Rails",
-    description:
-      "En Beruby me dieron un reto, crear una nueva aplicación que fuera facilmente mantenible y escalable. Tras un análisis, se decidió migrar la aplicación a ReactNative que se conectaba al monolito existente de Rails. Tras un proceso de 2 meses, se consiguió migrar la aplicación a ReactNative y Rails, lo que permitió a los equipos de desarrollo trabajar de manera más eficiente y escalable. Actualmente, la aplicación se encuentra en producción y se sigue trabajando en ella",
-    link: "",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.REACT, TAGS.RAILS, TAGS.EXPO],
-  },
-  {
-    title: "Creación de un api Proxy en python, rails y AWS SQS",
-    description:
-      "En mi última empresa, se planteó la necesidad de crear un api proxy que se conectara a un servicio externo y que permitiera a los equipos de desarrollo trabajar de manera más eficiente. Tras un análisis, se decidió crear un api proxy en python que se conectaba a un servicio externo y que se comunicaba con el monolito de Rails a través de AWS SQS. Tras un proceso de 2 semanas, se consiguió crear el api proxy en python, rails y AWS SQS, lo que permitió a los equipos de desarrollo trabajar de manera más eficiente y escalable. Actualmente, el api proxy se encuentra en producción y se sigue trabajando en él",
-    link: "",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.SQS, TAGS.RAILS, TAGS.PYTHON],
-  }
-]
+const PROJECTS:ProjectType[] = t('projects');
 ---
 
 <div class="flex flex-col gap-y-16">
   {
-    PROJECTS.map(({ title, description, tags, link, github }) => (
+    PROJECTS.map(({ image, title, description, tags, link, github }) => (
   <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
   <div class="w-full">
     <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
       {title}
     </h3>
     <div class="flex flex-wrap mt-2">
-      <ul class="flex flex-row mb-2 gap-x-2">
-          {tags.map((tag) => (
-            <li>
-              <span
-                class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
-              >
-                <tag.icon class="size-4" />
-                {tag.name}
-              </span>
-            </li>
-          ))}
-        </ul>
+      <ul class="flex flex-wrap mb-2 gap-x-2">
+        {tags.map((item) => {
+          const tag:TagType = TAGS[item];
+          if(tag) {
+            return (
+              <li>
+                <span
+                  class={`flex gap-x-2 mt-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
+                >
+                  <tag.icon class="size-4" />{tag.name}
+                </span>
+              </li>
+            )
+          }
+        })}
+      </ul>
 
       <div class="mt-2 text-gray-700 dark:text-gray-400">{description}</div>
       <footer class="flex items-end justify-start mt-4 gap-x-4">
           {github && (
             <LinkButton href={github}>
               <GitHub class="size-6" />
-              Code
+              {t("projects.code")}
               
             </LinkButton>
           )}
           {link && (
             <LinkButton href={link}>
               <Link class="size-4" />
-              Preview
+              {t("projects.preview")}
             </LinkButton>
           )}
         </footer>
@@ -151,6 +148,3 @@ const PROJECTS = [
     ))
   }
 </div>
-
-
-

@@ -5,6 +5,11 @@ import SocialPill from "@/components/SocialPill.astro"
 import LinkedInIcon from "@/components/icons/LinkedIn.astro"
 
 import Layout from "@/layouts/Layout.astro"
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
 ---
 
 <Layout
@@ -24,7 +29,7 @@ import Layout from "@/layouts/Layout.astro"
       <div class="flex">
         <SocialPill href="https://linkedin.com/in/adangr">
           <LinkedInIcon class="size-4 md:size-6" />
-          LinkedIn
+          {t("about.linkedin")}
         </SocialPill>
       </div>
     </article>

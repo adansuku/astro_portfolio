@@ -1,42 +1,20 @@
 ---
 import ExperienceItem from "./ExperienceItem.astro"
-const EXPERIENCIE = [
-{
-    date: "2024",
-    title: "Senior Ruby on Rails Engineer",
-    company: "Invoke",
-    description:
-      "Mi paso por Invoke fue breve pero dinámico. Desde el primer día, tuve la oportunidad de mejorar los pipelines de GitLab hasta hacerlos un 70% más rápidos. También creé nuevas funcionalidades como Proxys y APIs, realicé mejoras en las colas SQS y en el sistema de depuración. Aunque fue un trabajo temporal, aprendí muchísimo y el equipo humano fue excepcional.",
-    link: "",
-  },
-  {
-    date: "2021 - 2024",
-    title: "Senior Ruby on Rails Engineer",
-    company: "ClickDimensions",
-    description:
-      "En ClickDimensions, exploré el fascinante mundo del big data como Ruby Engineer. Trabajando con tecnologías como Ruby on Rails, PostgreSQL, MySQL y Docker, aprendí de la mano de mi manager Eduardo y mis colegas 'Los Robertos'. Desde DATA y ETL, BLENDS Scripts hasta Pipelines y Queries, ¡no hubo aburrimiento! Además, aproveché cursos de Microsoft, siendo ClickDimensions partner. Lamentablemente tras unos años alli, la empresa decidió migrar Rails a .NET y me vi obligado a buscar nuevos horizontes.",
-    link: "",
-  },
-  {
-    date: "2019 - 2021",
-    title: "Ruby on Rails Engineer",
-    company: "Beruby España",
-    description:
-      "En Beruby España, trabajé muchisimo en el frontend de una plataforma de Cashback junto a Noel, Ángel y el CEO Miguel. Me sumergí en integraciones de APIs para tiendas, mejorando vistas ERB y componentes backend. ¡Incluso migré la app a React Native y Ruby, llevándola a la era moderna!, Actualmente estoy orgulloso de que sigan con esta aplicación, mejorandola día a día. ¡Gracias Beruby!",
-    link: "",
-  },
-  {
-    date: "2016 - 2019",
-    title: "Ruby on Rails Developer",
-    company: "2Bedigital",
-    description:
-      "En 2Bedigital, junto a mi jefe y ahora amigo Pablo (CEO), exploré el mundo de RubyonRails. En un pequeño pero poderoso equipo, creamos tiendas y plantillas para SOLIDUS, dominando el arte del ecommerce con Rails. Aquí comenzó mi épica aventura con Ruby on Rails y desde entonces, ya no he podido parar. Aún me paso por sus oficinas y siempre soy bien recibido. Tengo mucha suerte de siempre encontrar a buena gente a lo largo de mi carrera profesional.",
-    link: "",
-  }
-];
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+type Experience = {
+  title: string;
+  company: string;
+  date: string;
+  description: string;
+  link: string;
+}
+const EXPERIENCIE: Experience[] = t('about.experience');
 ---
-
+{t("about.title")}
 <ol class="relative mt-16">
   {
     EXPERIENCIE.map((experiencie) => (
