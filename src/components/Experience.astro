@@ -12,12 +12,11 @@ type Experience = {
   description: string;
   link: string;
 }
-const EXPERIENCIE: Experience[] = t('about.experience');
+const x: Experience[] = t('about.experience') as unknown as Experience[];
 ---
-{t("about.title")}
 <ol class="relative mt-16">
   {
-    EXPERIENCIE.map((experiencie) => (
+    x.map((experiencie) => (
       <li class="">
         <ExperienceItem {...experiencie} />
       </li>

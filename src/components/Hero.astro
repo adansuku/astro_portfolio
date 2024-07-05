@@ -8,13 +8,12 @@ import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const currentYear = new Date().getFullYear();
 ---
 
 <div class="max-w-xl">
   <div class="flex gap-4 mb-4">
     <img
-      class="rounded-full shadow-lg w-16 h-16 object-cover object-top"
+      class="rounded-full shadow-lg w-20 h-20 object-cover object-top"
       src="/adan.webp"
       alt={personalImageAlt}
     />
@@ -33,7 +32,7 @@ const currentYear = new Date().getFullYear();
     {t("about.hey")}
   </h1>
   <p
-    class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
+    class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-400 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
     set:html={t("about.me")}
   />
   <nav class="flex flex-wrap gap-4 mt-8">
