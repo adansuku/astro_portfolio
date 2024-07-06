@@ -21,7 +21,7 @@ export const ui = {
     "about.linkedin": "Linkedin",
     "about.myself": `
         <p>
-        Hi, I'm Adán. My programming journey began with Visual Basic when I was just over 20 years old. Over time, I have specialized in languages like <strong>Ruby, Python, and JavaScript</strong>.
+        Hi, I'm Adán. My programming journey began with Visual Basic when I was just over 12 years old. Over time, I have specialized in languages like <strong>Ruby, Python, and JavaScript</strong>.
         </p>
         <br>
         <p>
@@ -119,7 +119,7 @@ export const ui = {
     projects: [
       {
         "title": "Un OCR en Rails, pues así lo hice",
-        "description": "Pensativo por la necesidad de una empresa de optimizar el escaneo y análisis de documentos, desarrollé una aplicación en Ruby on Rails integrada con Tesseract OCR. Esta herramienta no solo gestiona la carga de documentos utilizando Active Storage, sino que también extrae texto de imágenes, convirtiendo una tarea abrumadora en una solución eficiente. Utilizando Tailwind CSS para el estilo del frontend, la aplicación permite un manejo fluido de archivos y capacidades de OCR, mejorando la productividad a través de la automatización.",
+        "description": "Inspired by the need to optimize document scanning and analysis, I developed an application in Ruby on Rails integrated with Tesseract OCR. This tool not only manages document uploads using Active Storage but also extracts text from images, transforming a complex task into an efficient solution. By utilizing Tailwind CSS for frontend styling, the application enables seamless file handling and advanced OCR capabilities, enhancing productivity through automation.",
         "link": "",
         "github": "",
         "image": "/projects/svgl.webp",
@@ -180,7 +180,7 @@ export const ui = {
     "about.linkedin": "Linkedin",
     "about.myself": `
         <p>
-        Hola, soy Adán. Mi aventura en el mundo de la programación comenzó con Visual Basic cuando tenía poco más de 20 años. A lo largo del tiempo, me he especializado en lenguajes como <strong>Ruby, Python, y JavaScript</strong>.
+        Hola, soy Adán. Mi aventura en el mundo de la programación comenzó con Visual Basic cuando tenía poco más de 12 años. A lo largo del tiempo, me he especializado en lenguajes como <strong>Ruby, Python, y JavaScript</strong>.
         </p>
         <br>
         <p>
@@ -279,7 +279,7 @@ export const ui = {
       {
         title: "Un OCR en Rails, pues así lo hice",
         description:
-          "Inspirado por la necesidad de un amigo de optimizar el escaneo y análisis de documentos, desarrollé una aplicación en Ruby on Rails integrada con Tesseract OCR. Esta herramienta no solo gestiona la carga de documentos utilizando Active Storage, sino que también extrae texto de imágenes, convirtiendo una tarea abrumadora en una solución eficiente. Utilizando Tailwind CSS para el estilo del frontend, la aplicación permite un manejo fluido de archivos y capacidades de OCR, mejorando la productividad a través de la automatización.",
+          "Inspirado por la necesidad de optimizar el escaneo y análisis de documentos, desarrollé una aplicación en Ruby on Rails integrada con Tesseract OCR. Esta herramienta no solo gestiona la carga de documentos utilizando Active Storage, sino que también extrae texto de imágenes, convirtiendo una tarea compleja en una solución eficiente. Utilizando Tailwind CSS para el estilo del frontend, la aplicación permite un manejo fluido de archivos y capacidades avanzadas de OCR, mejorando la productividad a través de la automatización.",
         link: "",
         github: "",
         image: "/projects/svgl.webp",
