@@ -14,7 +14,7 @@ export const ui = {
     "nav.email": "Adangrx@gmail.com",
     "about.title": "About Me",
     "about.me":
-      " +10 years of experience. <strong>Software Engineer and Passionate Programmer with Ruby, Python, and Javascript</strong> Born and raised in the Canary Islands 🇪🇸. Specialized in remote work. My passion is optimization and fixing impossible elements. Challenges are my passion.",
+      " +10 years of experience. <strong>Software Engineer and Passionate Programmer with Ruby, Python, and Javascript</strong> Born and raised in the Canary Islands 🇪🇸. My passion is optimization and fixing impossible elements. Challenges are my passion.",
     "about.open": "Open to work",
     "about.hey": "Hey, I´m Adán",
     "about.contact": "Contact me",
@@ -173,7 +173,7 @@ export const ui = {
     "nav.email": "Adangrx@gmail.com",
     "about.title": "Sobre mí",
     "about.me":
-      " Con más de 10 años de experiencia, soy Ingeniero de Software y apasionado por la programación con habilidades destacadas en Ruby, Python y JavaScript. Originario de las hermosas Islas Canarias 🇪🇸 🌴 🇮🇨, me especializo en trabajo remoto. Mi pasión radica en la optimización y en resolver desafíos.",
+      " Con más de 10 años de experiencia, <strong>soy Ingeniero de Software y apasionado por la programación con habilidades en Ruby, Python y JavaScript</strong>. Originario de las hermosas Islas Canarias 🇪🇸 🌴 🇮🇨. Mi pasión radica en la optimización y en resolver desafíos.",
     "about.open": "Open to work",
     "about.hey": "Hey, I´m Adán",
     "about.contact": "Contacta conmigo",
