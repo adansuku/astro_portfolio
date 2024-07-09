@@ -69,9 +69,7 @@ const THEMES = ["Light", "Dark", "System"]
     const themesMenu = document.getElementById("themes-menu")
 
     const getThemePreference = () => {
-      console.log(localStorage.getItem("theme"))
       if (typeof localStorage !== "undefined") {
-   
         return localStorage.getItem("theme") ?? "dark"
       }
       return matchMedia.matches
