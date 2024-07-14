@@ -83,6 +83,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+dist/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -183,3 +184,4 @@ dist
 .vercel
 
 # End of https://www.toptal.com/developers/gitignore/api/vercel,astro,node,macos
+node_modules
