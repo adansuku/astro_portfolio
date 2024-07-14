@@ -90,6 +90,8 @@ export const ui = {
         link: "",
       },
     ],
+    "about.link": "/adan_en.pdf",
+    "about.cv": "CV",
     "about.education": [
       {
         date: "2024 (Temporary)",
@@ -178,6 +180,8 @@ export const ui = {
     "about.hey": "Hey, I´m Adán",
     "about.contact": "Contacta conmigo",
     "about.linkedin": "Linkedin",
+    "about.link": "/adan_es.pdf",
+    "about.cv": "CV",
     "about.myself": `
         <p>
         Hola, soy Adán. Mi aventura en el mundo de la programación comenzó con Visual Basic cuando tenía poco más de 12 años. A lo largo del tiempo, me he especializado en lenguajes como <strong>Ruby, Python, y JavaScript</strong>.

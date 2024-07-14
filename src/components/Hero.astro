@@ -4,6 +4,7 @@ import Badge from "@/components/Badge.astro";
 import LinkedInIcon from "@/components/icons/LinkedIn.astro";
 import MailIcon from "@/components/icons/Mail.astro";
 import SocialPill from "@/components/SocialPill.astro";
+import ProfileCheck from "./icons/ProfileCheck.astro";
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
@@ -43,6 +44,10 @@ const t = useTranslations(lang);
     <SocialPill href="https://www.linkedin.com/in/adangr">
       <LinkedInIcon class="size-4" />
       {t("about.linkedin")}
+    </SocialPill>
+    <SocialPill href={t('about.link')}>
+      <ProfileCheck class="size-4" />
+      {t("about.cv")}
     </SocialPill>
   </nav>
 </div>
