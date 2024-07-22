@@ -14,33 +14,44 @@ export const ui = {
     "nav.email": "Adangrx@gmail.com",
     "about.title": "About Me",
     "about.me":
-      "With over 10 years of robust experience, I am a Software Engineer and passionate programmer proficient in <strong>Ruby, Python, and JavaScript</strong>. Hailing from the Canary Islands  🇪🇸 🌴 🇮🇨, my expertise lies in optimization and conquering challenging problems.",
+      "With over 10 years of experience, I am a skilled software engineer and a passionate programmer with proficiency in Ruby, Python and JavaScript. Born and raised in theCanary Islands  🇪🇸 🌴 🇮🇨,, my expertise lies in optimization and solving challenges.",
     "about.open": "Open to work",
     "about.hey": "Hey, I´m Adán",
     "about.contact": "Contact me",
     "about.linkedin": "Linkedin",
     "about.myself": `
         <p>
-        Hi, I'm Adán. My programming journey began with Visual Basic when I was just over 12 years old. Over time, I have specialized in languages like <strong>Ruby, Python, and JavaScript</strong>.
+        Hi, I’m Adán. My programming journey began with Visual Basic when I was just over 12 years old. Over time, I have specialized in languages like Ruby, <strong>Ruby, Python, and JavaScript</strong>.
         </p>
         <br>
         <p>
-        Although my dream was always to be a video game programmer, I grew up in a small, almost uninhabited town in Tenerife, a beautiful island in Spain, where opportunities in that field were limited. Therefore, I focused on web programming, specializing in web and mobile application development.
+        Although my dream was always to be a video game programmer, I grew up in a small,
+almost uninhabited town in Tenerife, a beautiful island in Spain, where opportunities
+in that field were limited. Therefore, I focused on web programming, specializing in the
+development of web and mobile applications.
         </p>
                 <br>
   
         <p>
-        Throughout my career, I have had the privilege of working in various companies, which has enriched my knowledge and allowed me to collaborate with major partners such as <strong>Microsoft, Shopify, Coca-Cola, Universal...</strong>. Currently, I am seeking new challenges and opportunities where I can apply and expand all my knowledge and ideas.
+       Throughout my career, I have had the privilege of working in various companies, which
+has enriched my knowledge and allowed me to collaborate with great partners such
+as <strong>Microsoft, Shopify, Coca-Cola, Universal</strong>... I am now looking for new challenges and
+opportunities where I can apply and expand all my knowledge and ideas.
         </p>
                 <br>
   
         <p>
-        As a developer, I have worked with a wide range of technologies, including <strong>Rails, React, React Native (with Expo), Laravel, FastAPI, MongoDB, MySQL, PostgreSQL, Docker, Redis, and AWS SQS</strong>, among others.
+       As a developer, I have worked with a wide range of technologies, including Rails,
+React, React Native (with Expo), Laravel, FastAPI, MongoDB, MySQL, PostgreSQL,
+Docker, Redis, and AWS SQS, among others.
         </p>
                 <br>
   
         <p>
-        Outside of work, I am passionate about surfing and music. I love programming and greatly enjoy spending time with my family. Additionally, I am a camper van enthusiast, which allows me to combine my love for nature and adventure.
+        Outside of work, I am passionate about surfing and music. I love programming and I
+greatly enjoy spending time with my family. I am also a camper van enthusiast, which
+allows me to combine my love for nature and adventure.
+<br>
         </p>`,
     "about.experience": [
       {
@@ -48,7 +59,7 @@ export const ui = {
         title: "Senior Ruby on Rails Engineer",
         company: "Invoke",
         description:
-          "My time at Invoke was brief but dynamic. From day one, I had the opportunity to improve GitLab pipelines, making them 70% faster. I also created new features like Proxies and APIs, and made improvements to SQS queues and the debugging system. Although it was a temporary role, I learned a lot and the team dynamics were exceptional.",
+          "<p>My time at Invoke was brief but dynamic. From day one, I had the opportunity to improve GitLab pipelines, making them 70% faster. I also created new features like proxies and APIs, and made improvements to SQS queues and the debugging system.</p><br><p><strong><i> Even though it was a temporary role, it taught me a lot, and the team dynamics were outstanding.</i></strong></p>",
         link: "",
       },
       {
@@ -56,7 +67,7 @@ export const ui = {
         title: "Senior Ruby on Rails Engineer",
         company: "ClickDimensions",
         description:
-          "At ClickDimensions, I delved into the fascinating world of big data as a Ruby Engineer. Working with technologies like Ruby on Rails, PostgreSQL, MySQL, and Docker, I learned under the guidance of my manager Eduardo and my colleagues 'Los Robertos'. From DATA and ETL to BLENDS Scripts and Pipelines, there was never a dull moment! I also took advantage of Microsoft courses, given ClickDimensions' partnership. Unfortunately, after a few years there, the company decided to migrate Rails to .NET, prompting me to seek new horizons.",
+          "<p>At ClickDimensions, I dived into the fascinating world of big data as a Ruby Engineer. Working with technologies such as Ruby on Rails, PostgreSQL, MySQL, and Docker, I learned under the guidance of my manager Eduardo and my colleagues “Los Robertos”.</p><br><p> From DATA and ETL to BLENDS Scripts and Pipelines, there was never a dull moment! I was also able to benefit from Microsoft courses thanks to ClickDimensions partnership with them.</p><br> <p><strong><i>Unfortunately, after a few years, the company decided to migrate from Rails to .NET, prompting me to seek out new horizons.</i></strong></p>",
         link: "",
       },
       {
@@ -64,29 +75,22 @@ export const ui = {
         title: "Ruby on Rails Engineer",
         company: "Beruby Spain",
         description:
-          "At Beruby, I tackled the challenge of developing a new application with high scalability and maintainability as it would be used by many users. After thorough analysis, we opted to migrate the application to React Native and integrate it with the existing Rails monolith. Over a two-month period, we successfully completed the migration to React Native and Rails, significantly enhancing the efficiency and usability of the development teams. The application is currently in production and continues to evolve, and I am very proud of it.",
+          "<p>At Beruby, I tackled the challenge of developing a new application with high scalability and maintainability since many users would use it. After thorough analysis, we opted to migrate the application to React Native and integrate it into the existing Rails monolith.</p> <br><p>Over a two-month period, we successfully completed the migration to React Native and Rails, significantly enhancing the efficiency and usability of the development teams.</p> <br><p>The application is currently in production and it continues evolving, and I am very proud of it. </p><br><p><strong><i>After my time at Beruby, I decided to change companies because they offered me a better salary and a place to grow as a Senior Ruby on Rails Engineer.</i></strong></p>",
         link: "",
       },
       {
-        date: "2017 - 2019",
+        date: "2016 - 2019",
         title: "Ruby on Rails Developer",
         company: "2Bedigital",
         description:
-          "At 2Bedigital, alongside my boss and now friend Pablo (CEO), I explored the world of Ruby on Rails. In a small yet highly competent team, we developed stores and templates for SOLIDUS, solidifying our dominance in e-commerce with Rails. We created numerous gems, marking the beginning of my exciting journey with Ruby on Rails, and since then, my commitment to this technology has only grown. I still visit their offices and am always warmly welcomed. I consider myself fortunate to have met such talented individuals throughout my professional career.",
+          "<p>At 2Bedigital, alongside my boss and now friend Pablo (CEO), I explored the world of Ruby on Rails. In a small but high-performing team, we developed stores and templates for SOLIDUS, asserting our dominance in e-commerce with Rails. We created thousands of gems, marking the beginning of my thrilling journey with Ruby on Rails.</p><br><p> Since then, my commitment to this technology has only grown stronger. I still visit their offices and I am always warmly welcomed. I consider myself fortunate to have met such talented people throughout my professional career. </p><br><p><strong><i>I decided to move to Beruby after their decision to switch to a PrestaShop and Shopify format, where my skills as a developer were not needed.</strong></i></p>",
         link: "",
       },
       {
-        date: "2015 - 2017",
-        title: "Software PHP/ Wordpress Developer",
-        company: "Freelance",
-        description: "",
-        link: "",
-      },
-      {
-        date: "2011 - 2015",
+        date: "2006 - 2015",
         title: "Junior PHP/ Wordpress Developer",
         company: "Fu International Academy",
-        description: "",
+        description: "Here I learned the basics of PHP and Wordpress, it was a great experience.",
         link: "",
       },
     ],
@@ -121,7 +125,7 @@ export const ui = {
     projects: [
       {
         "title": "Un OCR en Rails, pues así lo hice",
-        "description": "Inspired by the need to optimize document scanning and analysis, I developed an application in Ruby on Rails integrated with Tesseract OCR. This tool not only manages document uploads using Active Storage but also extracts text from images, transforming a complex task into an efficient solution. By utilizing Tailwind CSS for frontend styling, the application enables seamless file handling and advanced OCR capabilities, enhancing productivity through automation.",
+        "description": "Inspired by the need to optimize document scanning and analysis, I developed an application in Ruby on Rails integrated with Tesseract OCR. This tool not only manages the upload of documents using Active Storage, but also extracts text from images, turning a complex task into an efficient solution. By using Tailwind CSS for frontend styling, the application allows for seamless file handling and advanced OCR capabilities, improving productivity through automation.",
         "link": "",
         "github": "",
         "image": "/projects/svgl.webp",
@@ -131,7 +135,7 @@ export const ui = {
       {
         title: "Improvements in GitLab's CI/CD Pipelines",
         description:
-          "My time at Invoke was brief but dynamic. From day one, I led significant improvements in GitLab's pipelines, achieving an impressive 70% speed increase, reducing pipeline times from 45 to 7-9 minutes each. I introduced new features like Proxies and APIs, while refining SQS queues and debugging systems. Despite being a temporary position, it was an intense and enriching learning experience within an exceptional team environment.",
+          "My time at Invoke was brief but dynamic. From day one, I led significant improvements in GitLab's pipelines, achieving an impressive 70% speed increase, reducing pipeline times from 45 to 7-9 minutes each. I introduced new features such as proxies and APIs, while also refining SQS queues and debugging systems. Despite being a temporary position, it was an intense and rewarding learning experience within an exceptional team environment.",
         link: "",
         github: "",
         image: "/projects/svgl.webp",
@@ -141,7 +145,7 @@ export const ui = {
         title:
           "Dockerization of a Ruby on Rails Application for ARM64 Architectures and MySQL 5.7 without Support",
         description:
-          "With the arrival of new teams at the company, there was a need to dockerize a Ruby on Rails application integrated with a MySQL database. However, MySQL 5.7 does not support ARM64 architectures, leading us to develop a MySQL 5.7 image tailored for ARM64. After exhaustive testing and adjustments, we successfully dockerized both the Ruby on Rails application and MySQL 5.7 database for ARM64 architectures, using service emulation. This enabled the new teams to work on the application seamlessly.",
+          "With the arrival of new teams to the company, a need emerged to dockerize a Ruby on Rails application integrated with a MySQL database. However, MySQL 5.7 does not support ARM64 architectures, which led us to develop a MySQL 5.7 image adapted for ARM64. After exhaustive testing and adjustments, we successfully dockerized both the Ruby on Rails application and the MySQL 5.7 database for ARM64 architectures, using service emulation. This made it possible for the new teams to work on the application without a hitch.",
         link: "",
         image: "/projects/adventjs.webp",
         tags: ["docker", "rails", "mysql"],
@@ -149,7 +153,7 @@ export const ui = {
       {
         title: "Migration of an Application to React Native and Rails",
         description:
-          "At Beruby, I was tasked with creating a new application that would be easily maintainable and scalable. After thorough analysis, we decided to migrate the application to React Native, integrating it with the existing Rails monolith. Over a two-month period, we successfully completed the migration to React Native and Rails, enabling the development teams to work more efficiently and scaleably. Currently, the application is in production and continues to evolve.",
+          "At Beruby, I was faced with the challenge of creating a new application that would be easily maintainable and scalable. After thorough analysis, we decided to migrate the application to React Native, integrating it into the existing Rails monolith. Over a two- month period, we successfully completed the migration to React Native and Rails, which allowed development teams to work more efficiently and scalably. The application is currently in production and it continues evolving.",
         link: "",
         image: "/projects/adventjs.webp",
         tags: ["react", "rails", "expo"],
@@ -157,7 +161,7 @@ export const ui = {
       {
         title: "Creation of an API Proxy in Python, Rails, and AWS SQS",
         description:
-          "At my last company, there was a need to develop an API proxy that would connect to an external service to enhance the efficiency of development teams. After detailed analysis, we decided to implement the API proxy using Python, allowing communication with the Rails monolith through AWS SQS. Within a two-week period, we successfully developed and deployed the API proxy using Python, Rails, and AWS SQS. This solution enabled our clients not only to create their own frontend but also to separate functionalities from the existing application through their own API.",
+          "At my last company, there was a need to develop an API proxy that would connect to an external service to enhance the efficiency of development teams. After detailed analysis, it was decided to implement the API proxy using Python, allowing communication with the Rails monolith through AWS SQS. Within a two-week period, we managed to develop and deploy the API proxy using Python, Rails and AWS SQS. This solution enabled our clients not only to create their own frontend but also to separate functionalities from the existing application through their own API.",
         link: "",
         image: "/projects/adventjs.webp",
         tags: ["python", "rails", "sqs"],
@@ -211,7 +215,7 @@ export const ui = {
         title: "Senior Ruby on Rails Engineer",
         company: "Invoke",
         description:
-          "Mi paso por Invoke fue breve pero dinámico. Desde el primer día, tuve la oportunidad de mejorar los pipelines de GitLab hasta hacerlos un 70% más rápidos. También creé nuevas funcionalidades como Proxys y APIs, realicé mejoras en las colas SQS y en el sistema de depuración. Aunque fue un trabajo temporal, aprendí muchísimo y el equipo humano fue excepcional.",
+          "<p>Mi paso por Invoke fue breve pero dinámico. Desde el primer día, tuve la oportunidad de mejorar los pipelines de GitLab hasta hacerlos un 70% más rápidos. También creé nuevas funcionalidades como Proxys y APIs, realicé mejoras en las colas SQS y en el sistema de depuración.</p><br><p> Aunque fue un trabajo temporal, aprendí muchísimo y el equipo humano fue excepcional.</p><br><p><strong><i> No pudieron extender mi contrato por motivos económicos, pero sin duda fue una experiencia muy enriquecedora.</i></strong></p>",
         link: "",
       },
       {
@@ -219,7 +223,7 @@ export const ui = {
         title: "Senior Ruby on Rails Engineer",
         company: "ClickDimensions",
         description:
-          "En ClickDimensions, exploré el fascinante mundo del big data como Ruby Engineer. Trabajando con tecnologías como Ruby on Rails, PostgreSQL, MySQL y Docker, aprendí de la mano de mi manager Eduardo y mis colegas 'Los Robertos'. Desde DATA y ETL, BLENDS Scripts hasta Pipelines y Queries, ¡no hubo aburrimiento! Además, aproveché cursos de Microsoft, siendo ClickDimensions partner. Lamentablemente tras unos años alli, la empresa decidió migrar Rails a .NET y me vi obligado a buscar nuevos horizontes.",
+          "<p>En ClickDimensions, exploré el fascinante mundo del big data como Ruby Engineer. Trabajando con tecnologías como Ruby on Rails, PostgreSQL, MySQL y Docker, aprendí de la mano de mi manager Eduardo y mis colegas 'Los Robertos'.</p><br><p> Desde DATA y ETL, BLENDS Scripts hasta Pipelines y Queries, ¡no hubo aburrimiento! Además, aproveché cursos de Microsoft, siendo ClickDimensions partner. </p><br><p><strong><i>Lamentablemente tras unos años alli, la empresa decidió migrar Rails a .NET y me vi obligado a buscar nuevos horizontes. Era un lugar muy bueno para trabajar y aprendí mucho, pero no me veía trabajando con .NET</i></strong></p>",
         link: "",
       },
       {
@@ -227,29 +231,22 @@ export const ui = {
         title: "Ruby on Rails Engineer",
         company: "Beruby España",
         description:
-          "En Beruby, enfrenté el desafío de desarrollar una nueva aplicación con alta escalabilidad y mantenibilidad ya que muchos usuarios la utilizarían. Tras un análisis exhaustivo, se optó por migrar la aplicación a React Native e integrarla con el monolito existente de Rails. Durante un proceso de dos meses, completamos exitosamente la migración a React Native y Rails, lo cual mejoró significativamente la eficiencia y usabilidad de los equipos de desarrollo. Actualmente, la aplicación se encuentra en producción y continúa evolucionando, estoy muy orgulloso de ello.",
+          "<p>En Beruby, enfrenté el desafío de desarrollar una nueva aplicación con alta escalabilidad y mantenibilidad ya que muchos usuarios la utilizarían. Tras un análisis exhaustivo, se optó por migrar la aplicación a React Native e integrarla con el monolito existente de Rails.</p><br><p> Durante un proceso de dos meses, completamos exitosamente la migración a React Native y Rails, lo cual mejoró significativamente la eficiencia y usabilidad de los equipos de desarrollo. Actualmente, la aplicación se encuentra en producción y continúa evolucionando, estoy muy orgulloso de ello.</p><br><p><strong><i> Tras mi paso por Beruby decidí cambiar de empresa ya que me ofrecían un mejor salario y un lugar donde crecer como Senior Ruby on Rails Engineer.</i></strong></p>",
         link: "",
       },
       {
-        date: "2017 - 2019",
+        date: "2016 - 2019",
         title: "Ruby on Rails Developer",
         company: "2Bedigital",
         description:
-          "En 2Bedigital, junto a mi jefe y ahora amigo Pablo (CEO), exploré el mundo de Ruby on Rails. En un equipo pequeño pero altamente competente, desarrollamos tiendas y plantillas para SOLIDUS, consolidando nuestro dominio en el comercio electrónico con Rails. Creamos miles de gemas y así fue el inicio de mi apasionante travesía con Ruby on Rails y desde entonces, mi compromiso con esta tecnología no ha menguado. Aún mantengo contacto con sus oficinas y siempre recibo una cálida acogida. Me considero afortunado de haber conocido a personas tan talentosas a lo largo de mi carrera profesional.",
+          "<p>En 2Bedigital, junto a mi jefe y ahora amigo Pablo (CEO), exploré el mundo de Ruby on Rails. En un equipo pequeño pero altamente competente, desarrollamos tiendas y plantillas para SOLIDUS, consolidando nuestro dominio en el comercio electrónico con Rails.</p><br> <p>Creamos miles de gemas y así fue el inicio de mi apasionante travesía con Ruby on Rails y desde entonces, mi compromiso con esta tecnología no ha menguado. Aún mantengo contacto con sus oficinas y siempre recibo una cálida acogida. Me considero afortunado de haber conocido a personas tan talentosas a lo largo de mi carrera profesional.</p><br><p><i><strong>Decidí moverme a Beruby tras su desición de cambiar a un formato prestashop y shopify, donde mis habilidades como desarrollador no eran necesarias</strong></i>.</p><br>",
         link: "",
       },
       {
-        date: "2015 - 2017",
-        title: "Software PHP/ Wordpress Developer",
-        company: "Freelance",
-        description: "",
-        link: "",
-      },
-      {
-        date: "2011 - 2015",
+        date: "2006 - 2015",
         title: "Junior PHP/ Wordpress Developer",
-        company: "Fu International Academy",
-        description: "",
+        company: "Fu International Academy / Informática",
+        description: "Aquí aprendí los conceptos desde báscicos a mid level de PHP,la programación y Wordpress, fue una gran experiencia.",
         link: "",
       },
     ],
