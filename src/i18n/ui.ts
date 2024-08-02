@@ -178,6 +178,8 @@ allows me to combine my love for nature and adventure.
     "nav.contact": "Contacto",
     "nav.email": "Adangrx@gmail.com",
     "about.title": "Sobre mí",
+    "about.find_title": "Objetivo Profesional",
+    "about.find": "<p>Busco un lugar donde poder asentar mis bases, aprender y crecer como desarrollador.</p><br><p> Estoy comprometido con encontrar una empresa que valore el crecimiento a largo plazo, me brinde oportunidades de desarrollo profesional y me permita contribuir de manera significativa al éxito de sus proyectos.</p><br><p>Mi meta es establecerme en una organización en la que pueda desarrollar una carrera sólida y duradera, aportando mis conocimientos y habilidades en un entorno de colaboración y mejora continua.</p>",
     "about.me":
       " Con más de 10 años de experiencia, <strong>soy Ingeniero de Software y apasionado por la programación con habilidades en Ruby, Python y JavaScript</strong>. Nací en una pequeña isla de las Islas Canarias, España 🇪🇸 🌴 🇮🇨. Mi pasión radica en la optimización y en resolver desafíos.",
     "about.open": "Open to work",
