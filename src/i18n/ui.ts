@@ -14,7 +14,7 @@ export const ui = {
     "nav.email": "Adangrx@gmail.com",
     "about.title": "About Me",
     "about.me":
-      "With over 10 years of experience, I am a skilled software engineer and a passionate programmer with proficiency in Ruby, Python and JavaScript. Born and raised in theCanary Islands  🇪🇸 🌴 🇮🇨,, my expertise lies in optimization and solving challenges.",
+      "With over 10 years of experience, I am a skilled software engineer and a passionate programmer with proficiency in Ruby, Python and JavaScript. Born and raised in theCanary Islands  🇪🇸 🌴 🇮🇨, my expertise lies in optimization and solving challenges.",
     "about.open": "Open to work",
     "about.hey": "Hey, I´m Adán",
     "about.contact": "Contact me",
@@ -55,7 +55,15 @@ allows me to combine my love for nature and adventure.
         </p>`,
     "about.experience": [
       {
-        date: "2024 (Temporary contract to cover absence)",
+        "date": "2024",
+        "title": "Solution Architect",
+        "company": "Invoke",
+        "description":
+          "<p>After working for a while on the product as a Ruby developer, I transitioned to a different project where I took on a role focused on implementing AWS-based solutions. In this new challenge, I worked extensively with Lambda functions in serverless architectures, automating key processes such as extracting data from email attachments. To achieve this, I integrated large language models (LLMs) like GPT-4, Ollama, and Claude, as well as business rule engines (BRE) that enabled precise and efficient information classification.</p><br><p>Additionally, I developed pipelines connecting these processes to services like S3 and DynamoDB, optimizing data flow while ensuring scalability and performance. I implemented a local development environment using the Serverless Framework and LocalStack, which facilitated testing and development in an environment close to production.</p><br><p>The result was an automated system capable of extracting, classifying, and processing documents, delivering significant improvements in information management and reducing operational time.</p>",
+        "link": ""
+      },
+      {
+        date: "2024",
         title: "Senior Ruby on Rails Engineer",
         company: "Invoke",
         description:
@@ -79,7 +87,7 @@ allows me to combine my love for nature and adventure.
         link: "",
       },
       {
-        date: "2016 - 2019",
+        date: "2017 - 2019",
         title: "Ruby on Rails Developer",
         company: "2Bedigital",
         description:
@@ -87,7 +95,15 @@ allows me to combine my love for nature and adventure.
         link: "",
       },
       {
-        date: "2006 - 2015",
+        date: "2015 - 2017",
+        title: "Freelance PHP and Ruby on Rails Developer",
+        company: "Bytefy",
+        description:
+        'Started to work in differents companies as a contracto like a "rubyman" and php :)',
+        link: "",
+      },
+      {
+        date: "2011 - 2015",
         title: "Junior PHP/ Wordpress Developer",
         company: "Fu International Academy",
         description: "Here I learned the basics of PHP and Wordpress, it was a great experience.",
@@ -113,7 +129,7 @@ allows me to combine my love for nature and adventure.
         description: "",
       },
       {
-        date: "2016 - 2019",
+        date: "2017 - 2019",
         title: "Ruby on Rails Developer",
         description: "",
       },
@@ -170,6 +186,8 @@ allows me to combine my love for nature and adventure.
     view_more: "View more",
     "footer.copy":
       'Portfolio created thanks to the teachings<br> and contributions of <strong><a href="https://midu.dev/" class="hover:underline">Midudev</a></strong>',
+    "about.find": "<p>Busco un lugar donde poder asentar mis bases, aprender y crecer como desarrollador.</p><br><p> Estoy comprometido con encontrar una empresa que valore el crecimiento a largo plazo, me brinde oportunidades de desarrollo profesional y me permita contribuir de manera significativa al éxito de sus proyectos.</p><br><p>Mi meta es establecerme en una organización en la que pueda desarrollar una carrera sólida y duradera, aportando mis conocimientos y habilidades en un entorno de colaboración y mejora continua.</p>",
+
   },
   es: {
     "nav.experience": "Experiencia",
@@ -178,7 +196,6 @@ allows me to combine my love for nature and adventure.
     "nav.contact": "Contacto",
     "nav.email": "Adangrx@gmail.com",
     "about.title": "Sobre mí",
-    "about.find_title": "Objetivo Profesional",
     "about.find": "<p>Busco un lugar donde poder asentar mis bases, aprender y crecer como desarrollador.</p><br><p> Estoy comprometido con encontrar una empresa que valore el crecimiento a largo plazo, me brinde oportunidades de desarrollo profesional y me permita contribuir de manera significativa al éxito de sus proyectos.</p><br><p>Mi meta es establecerme en una organización en la que pueda desarrollar una carrera sólida y duradera, aportando mis conocimientos y habilidades en un entorno de colaboración y mejora continua.</p>",
     "about.me":
       " Con más de 10 años de experiencia, <strong>soy Ingeniero de Software y apasionado por la programación con habilidades en Ruby, Python y JavaScript</strong>. Nací en una pequeña isla de las Islas Canarias, España 🇪🇸 🌴 🇮🇨. Mi pasión radica en la optimización y en resolver desafíos.",
@@ -213,7 +230,15 @@ allows me to combine my love for nature and adventure.
         </p>`,
     "about.experience": [
       {
-        date: "2024 (Contrato temporal para cubrir baja)",
+        date: "2024 (2º Contrato)",
+        title: "Solutions Architect",
+        company: "Invoke",
+        description:
+          "<p>Tras un tiempo trabajando en el producto como desarrollador de Ruby, me moví a un proyecto diferente donde asumí un rol más orientado a la implementación de soluciones basadas en AWS. En este nuevo desafío, trabajé intensamente con funciones Lambda en arquitecturas serverless, automatizando procesos clave como la extracción de datos desde adjuntos de correos electrónicos. Para ello, integré modelos de lenguaje (LLMs) como GPT-4, Ollama y Claude, así como motores de reglas de negocio (BRE) que permitieron una clasificación precisa y eficiente de la información. Todo utilizando <strong>Python</strong> como lenguaje</p><br><p>Además, desarrollé pipelines que conectaban estos procesos con servicios como S3 y DynamoDB, optimizando el flujo de datos y asegurando escalabilidad y rendimiento. Implementé un entorno local utilizando Serverless Framework y LocalStack, lo que facilitó el desarrollo y las pruebas en un entorno cercano al de producción.</p><br><p>El resultado fue un sistema automatizado capaz de extraer, clasificar y procesar documentos, aportando mejoras significativas en la gestión de información y reduciendo los tiempos de operación.</p>",
+        link: "",
+      },
+      {
+        date: "2024 (1º Contrato)",
         title: "Senior Ruby on Rails Engineer",
         company: "Invoke",
         description:
@@ -237,7 +262,7 @@ allows me to combine my love for nature and adventure.
         link: "",
       },
       {
-        date: "2016 - 2019",
+        date: "2017 - 2019",
         title: "Ruby on Rails Developer",
         company: "2Bedigital",
         description:
@@ -245,7 +270,15 @@ allows me to combine my love for nature and adventure.
         link: "",
       },
       {
-        date: "2006 - 2015",
+        date: "2015 - 2017",
+        title: "Freelance Software Developer",
+        company: "Freelance - Bytefy",
+        description:
+        'Desarrolle varios proyectos como freelance, en mis inicios como "rubyman"y php :)',
+        link: "",
+      },
+      {
+        date: "2011 - 2015",
         title: "Junior PHP/ Wordpress Developer",
         company: "Fu International Academy / Informática",
         description: "Aquí aprendí los conceptos desde báscicos a mid level de PHP,la programación y Wordpress, fue una gran experiencia.",
@@ -269,7 +302,7 @@ allows me to combine my love for nature and adventure.
         description: "",
       },
       {
-        date: "2016 - 2019",
+        date: "2017 - 2019",
         title: "Ruby on Rails Developer",
         description: "",
       },
