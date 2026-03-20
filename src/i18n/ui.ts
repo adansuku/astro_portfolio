@@ -122,9 +122,9 @@ export const ui = {
     "projects.code": "Code",
     projects: [
       {
-        title: "Engineering Culture Transformation: From FTP to Modern DevOps",
+        title: "Building an Engineering Team from Zero: No Git, No Architecture, No Problem",
         description:
-          "At Libnova, I inherited a team that relied entirely on FTP for deployments and had no version control workflow. I led a full engineering culture transformation: introduced Git with structured branching strategies, implemented CI/CD pipelines, containerized the platform with Docker, and automated deployments with Ansible. The team progressed from zero infrastructure knowledge to confidently working with message queues (SQS, RabbitMQ), understanding software architectures and DDD patterns, and owning their deployment pipelines. Watching engineers who had never used a terminal grow into professionals who discuss domain-driven design and orchestrate Kubernetes clusters has been one of the most rewarding experiences of my career.",
+          "At Libnova, I inherited a team with no version control (everything was FTP), no understanding of software architecture, and no exposure to modern engineering practices. I led a ground-up transformation — not just tooling, but mindset. I introduced Git, taught SOLID principles, DDD, and clean architecture patterns. I brought in Docker, CI/CD pipelines, message queues (SQS, RabbitMQ), and AI-assisted workflows. Engineers who had never opened a terminal went from zero to confidently discussing domain-driven design, writing clean code, containerizing services, and owning their own deployment pipelines. It was not a DevOps migration — it was building an entire engineering culture from scratch, and it has been one of the most rewarding challenges of my career.",
         link: "",
         github: "",
         image: "/projects/svgl.webp",
@@ -297,9 +297,9 @@ export const ui = {
     "projects.code": "Code",
     projects: [
       {
-        title: "Transformación de Cultura de Ingeniería: De FTP a DevOps Moderno",
+        title: "Construyendo un Equipo de Ingeniería desde Cero: Sin Git, Sin Arquitectura, Sin Problema",
         description:
-          "En Libnova, heredé un equipo que dependía completamente de FTP para despliegues y no tenía ningún flujo de control de versiones. Lideré una transformación completa de la cultura de ingeniería: introduje Git con estrategias de branching estructuradas, implementé pipelines CI/CD, containerricé la plataforma con Docker y automaticé despliegues con Ansible. El equipo pasó de cero conocimiento en infraestructura a trabajar con confianza con colas de mensajes (SQS, RabbitMQ), entender arquitecturas de software y patrones DDD, y ser dueños de sus propios pipelines de despliegue. Ver a ingenieros que nunca habían usado una terminal crecer hasta convertirse en profesionales que discuten diseño dirigido por dominio y orquestan clusters de Kubernetes ha sido una de las experiencias más gratificantes de mi carrera.",
+          "En Libnova, heredé un equipo sin control de versiones (todo era FTP), sin conocimiento de arquitectura de software y sin exposición a prácticas de ingeniería modernas. Lideré una transformación desde los cimientos — no solo herramientas, sino mentalidad. Introduje Git, enseñé principios SOLID, DDD y patrones de arquitectura limpia. Traje Docker, pipelines CI/CD, colas de mensajes (SQS, RabbitMQ) y flujos de trabajo asistidos por IA. Ingenieros que nunca habían abierto una terminal pasaron de cero a discutir con confianza diseño dirigido por dominio, escribir código limpio, containerizar servicios y ser dueños de sus propios pipelines de despliegue. No fue una migración DevOps — fue construir una cultura de ingeniería completa desde cero, y ha sido uno de los retos más gratificantes de mi carrera.",
         link: "",
         github: "",
         image: "/projects/svgl.webp",
