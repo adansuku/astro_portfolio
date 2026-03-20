@@ -3,7 +3,7 @@ export const languages = {
   en: "🇺🇸",
 };
 
-export const defaultLang = "es";
+export const defaultLang = "en";
 
 export const ui = {
   en: {
@@ -21,37 +21,23 @@ export const ui = {
     "about.linkedin": "Linkedin",
     "about.myself": `
         <p>
-        Hi, I'm Adán. My programming journey began with Visual Basic when I was just over 12 years old. Over time, I have specialized in languages like <strong>Ruby, Python, and JavaScript</strong>.
+        Senior Ruby on Rails engineer with <strong>10+ years of experience</strong> building scalable, maintainable products. After stepping into an Engineering Manager role, I realised my passion lies in hands-on engineering — writing great code, solving hard problems, and working with modern technology stacks.
         </p>
         <br>
         <p>
-        Although my dream was always to be a video game programmer, I grew up in a small,
-almost uninhabited town in Tenerife, a beautiful island in Spain, where opportunities
-in that field were limited. Therefore, I focused on web programming, specializing in the
-development of web and mobile applications.
+        I am currently completing a <strong>Master's in Artificial Intelligence</strong>, deepening my knowledge in machine learning, agent-based architectures, sub-agents, skills orchestration and parallelisation strategies. I am particularly excited about opportunities where strong software engineering foundations meet AI-driven development practices.
         </p>
         <br>
         <p>
-        Throughout my career, I have had the privilege of working in various companies, which
-has enriched my knowledge and allowed me to collaborate with great partners such
-as <strong>Microsoft, Shopify, Coca-Cola, Universal</strong>... I am particularly excited about
-opportunities where strong software engineering foundations meet AI-driven development practices.
+        Throughout my career, I have had the privilege of working in various companies, which has enriched my knowledge and allowed me to collaborate with great partners such as <strong>Microsoft, Shopify, Coca-Cola, Universal</strong>...
         </p>
         <br>
         <p>
-        I am currently completing a <strong>Master's in Artificial Intelligence</strong>, deepening my knowledge in
-machine learning, agent-based architectures, sub-agents, skills orchestration and parallelisation strategies.
+        As a developer, I have worked with a wide range of technologies, including <strong>Rails, React, React Native, FastAPI, MongoDB, MySQL, PostgreSQL, Docker, Kubernetes, Ansible, Terraform, Redis, and AWS (EC2, Lambda, S3, SQS, DynamoDB)</strong>, among others.
         </p>
         <br>
         <p>
-        As a developer, I have worked with a wide range of technologies, including Rails,
-React, React Native (with Expo), FastAPI, MongoDB, MySQL, PostgreSQL,
-Docker, Kubernetes, Ansible, Terraform, Redis, and AWS (EC2, Lambda, S3, SQS, DynamoDB), among others.
-        </p>
-        <br>
-        <p>
-        Outside of work, I am passionate about surfing and van life, music, AI & agent systems,
-game development, and spending time with my family.
+        Outside of work, I am passionate about surfing and van life, music, AI & agent systems, game development, and spending time with my family.
         </p>`,
     "about.experience": [
       {
@@ -142,7 +128,7 @@ game development, and spending time with my family.
         link: "",
         github: "",
         image: "/projects/svgl.webp",
-        tags: ["docker", "ansible", "git", "sqs"],
+        tags: ["docker", "rails", "ruby", "sqs", "gitlab"],
       },
       {
         title: "An OCR in Rails — here's how I did it",
@@ -160,7 +146,7 @@ game development, and spending time with my family.
         link: "",
         github: "",
         image: "/projects/svgl.webp",
-        tags: ["gitlab", "rspec", "ruby"],
+        tags: ["gitlab", "rspec", "ruby", "docker", "sqs"],
       },
       {
         title: "Dockerization of a Ruby on Rails Application for ARM64 Architectures and MySQL 5.7",
@@ -168,7 +154,7 @@ game development, and spending time with my family.
           "Solved a critical cross-platform compatibility issue by building a custom Docker image for ARM64/MySQL 5.7, unblocking the entire engineering team on Apple Silicon. After exhaustive testing and adjustments, we successfully dockerized both the Ruby on Rails application and the MySQL 5.7 database for ARM64 architectures, using service emulation.",
         link: "",
         image: "/projects/adventjs.webp",
-        tags: ["docker", "rails", "mysql"],
+        tags: ["docker", "rails", "ruby", "rspec"],
       },
       {
         title: "Migration of an Application to React Native and Rails",
@@ -176,7 +162,7 @@ game development, and spending time with my family.
           "At Beruby, led a two-month full migration of a high-traffic cashback application to React Native + Expo, integrated with the existing Rails monolith — delivered on schedule, launched to production, still running today. The migration allowed development teams to work more efficiently and scalably.",
         link: "",
         image: "/projects/adventjs.webp",
-        tags: ["react", "rails", "expo"],
+        tags: ["react", "rails", "expo", "ruby"],
       },
       {
         title: "Creation of an API Proxy in Python, Rails, and AWS SQS",
@@ -184,7 +170,7 @@ game development, and spending time with my family.
           "Built a high-throughput API proxy combining Ruby on Rails, Python, MongoDB, and AWS SQS, plus serverless pipelines connecting Lambda → S3 → DynamoDB with LocalStack for full local development parity. Within a two-week period, we managed to develop and deploy the solution.",
         link: "",
         image: "/projects/adventjs.webp",
-        tags: ["python", "rails", "sqs"],
+        tags: ["python", "rails", "sqs", "ruby", "docker"],
       },
     ],
     view_more: "View more",
@@ -212,29 +198,23 @@ game development, and spending time with my family.
     "about.cv": "CV",
     "about.myself": `
         <p>
-        Hola, soy Adán. Mi aventura en el mundo de la programación comenzó con Visual Basic cuando tenía poco más de 12 años. A lo largo del tiempo, me he especializado en lenguajes como <strong>Ruby, Python, y JavaScript</strong>.
+        Ingeniero Senior de Ruby on Rails con <strong>más de 10 años de experiencia</strong> construyendo productos escalables y mantenibles. Tras asumir un rol de Engineering Manager, descubrí que mi pasión está en la ingeniería práctica — escribir buen código, resolver problemas complejos y trabajar con stacks tecnológicos modernos.
         </p>
         <br>
         <p>
-        Aunque mi sueño siempre fue ser programador de videojuegos, crecí en un pequeño pueblo casi deshabitado en Tenerife, una hermosa isla en España, donde las oportunidades en ese campo eran limitadas. Por lo tanto, me volqué en la programación web, especializándome en el desarrollo de aplicaciones web y móviles.
+        Actualmente estoy cursando un <strong>Máster en Inteligencia Artificial</strong>, profundizando mis conocimientos en machine learning, arquitecturas basadas en agentes, sub-agentes, orquestación de habilidades y estrategias de paralelización. Me entusiasman especialmente las oportunidades donde una sólida base de ingeniería de software se encuentra con prácticas de desarrollo impulsadas por IA.
         </p>
         <br>
         <p>
-        A lo largo de mi carrera, he tenido el privilegio de trabajar en diversas empresas, lo que ha enriquecido mi conocimiento y me ha permitido colaborar con grandes partners como <strong>Microsoft, Shopify, Coca-Cola, Universal...</strong>. Me entusiasman especialmente las oportunidades donde una sólida base de ingeniería de software se encuentra con prácticas de desarrollo impulsadas por IA.
+        A lo largo de mi carrera, he tenido el privilegio de trabajar en diversas empresas, lo que ha enriquecido mi conocimiento y me ha permitido colaborar con grandes partners como <strong>Microsoft, Shopify, Coca-Cola, Universal...</strong>
         </p>
         <br>
         <p>
-        Actualmente estoy cursando un <strong>Máster en Inteligencia Artificial</strong>, profundizando mis conocimientos en
-machine learning, arquitecturas basadas en agentes, sub-agentes, orquestación de habilidades y estrategias de paralelización.
+        Como desarrollador, he trabajado con una amplia gama de tecnologías, incluyendo <strong>Rails, React, React Native, FastAPI, MongoDB, MySQL, PostgreSQL, Docker, Kubernetes, Ansible, Terraform, Redis, y AWS (EC2, Lambda, S3, SQS, DynamoDB)</strong>, entre otras.
         </p>
         <br>
         <p>
-        Como desarrollador, he trabajado con una amplia gama de tecnologías, incluyendo <strong>Rails, React, React Native (con Expo), FastAPI, MongoDB, MySQL, PostgreSQL, Docker, Kubernetes, Ansible, Terraform, Redis, y AWS (EC2, Lambda, S3, SQS, DynamoDB)</strong>, entre otras.
-        </p>
-        <br>
-        <p>
-        Fuera del trabajo, soy un apasionado del surf y la vida en furgoneta, la música, la IA y los sistemas de agentes,
-el desarrollo de videojuegos, y pasar tiempo con mi familia.
+        Fuera del trabajo, soy un apasionado del surf y la vida en furgoneta, la música, la IA y los sistemas de agentes, el desarrollo de videojuegos, y pasar tiempo con mi familia.
         </p>`,
     "about.experience": [
       {
@@ -323,7 +303,7 @@ el desarrollo de videojuegos, y pasar tiempo con mi familia.
         link: "",
         github: "",
         image: "/projects/svgl.webp",
-        tags: ["docker", "ansible", "git", "sqs"],
+        tags: ["docker", "rails", "ruby", "sqs", "gitlab"],
       },
       {
         title: "Un OCR en Rails, pues así lo hice",
@@ -341,7 +321,7 @@ el desarrollo de videojuegos, y pasar tiempo con mi familia.
         link: "",
         github: "",
         image: "/projects/svgl.webp",
-        tags: ["gitlab", "rspec", "ruby"],
+        tags: ["gitlab", "rspec", "ruby", "docker", "sqs"],
       },
       {
         title: "Dockerización de una aplicación Ruby on Rails para arquitecturas ARM64 y MySQL 5.7",
@@ -349,7 +329,7 @@ el desarrollo de videojuegos, y pasar tiempo con mi familia.
           "Resolví un problema crítico de compatibilidad cross-platform construyendo una imagen Docker personalizada para ARM64/MySQL 5.7, desbloqueando a todo el equipo de ingeniería en Apple Silicon. Tras exhaustivas pruebas y ajustes, conseguimos dockerizar con éxito tanto la aplicación Ruby on Rails como la base de datos MySQL 5.7 para arquitecturas ARM64.",
         link: "",
         image: "/projects/adventjs.webp",
-        tags: ["docker", "rails", "mysql"],
+        tags: ["docker", "rails", "ruby", "rspec"],
       },
       {
         title: "Migración de una aplicación a React Native y Rails",
@@ -357,7 +337,7 @@ el desarrollo de videojuegos, y pasar tiempo con mi familia.
           "En Beruby, lideré una migración completa de dos meses de una aplicación de cashback de alto tráfico a React Native + Expo, integrada con el monolito Rails existente — entregada a tiempo, lanzada en producción, sigue funcionando hoy. La migración permitió a los equipos de desarrollo trabajar de manera más eficiente y escalable.",
         link: "",
         image: "/projects/adventjs.webp",
-        tags: ["react", "rails", "expo"],
+        tags: ["react", "rails", "expo", "ruby"],
       },
       {
         title: "Creación de un API Proxy en Python, Rails y AWS SQS",
@@ -365,7 +345,7 @@ el desarrollo de videojuegos, y pasar tiempo con mi familia.
           "Construí un proxy API de alto rendimiento combinando Ruby on Rails, Python, MongoDB y AWS SQS, más pipelines serverless conectando Lambda → S3 → DynamoDB con LocalStack para paridad completa en desarrollo local. En un período de dos semanas, logramos desarrollar y desplegar la solución.",
         link: "",
         image: "/projects/adventjs.webp",
-        tags: ["python", "rails", "sqs"],
+        tags: ["python", "rails", "sqs", "ruby", "docker"],
       },
     ],
     view_more: "Ver más",
