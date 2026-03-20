@@ -4,6 +4,8 @@ import Badge from "@/components/Badge.astro";
 import LinkedInIcon from "@/components/icons/LinkedIn.astro";
 import MailIcon from "@/components/icons/Mail.astro";
 import GitHubIcon from "@/components/icons/GitHub.astro";
+import PhoneIcon from "@/components/icons/Phone.astro";
+import LinkIcon from "@/components/icons/Link.astro";
 import SocialPill from "@/components/SocialPill.astro";
 import ProfileCheck from "./icons/ProfileCheck.astro";
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
@@ -53,6 +55,14 @@ const t = useTranslations(lang);
     <SocialPill href="https://github.com/adansuku">
       <GitHubIcon class="size-4" />
       Github
+    </SocialPill>
+    <SocialPill href="tel:+34692817071">
+      <PhoneIcon class="size-4" />
+      +34 692 817 071
+    </SocialPill>
+    <SocialPill href="https://adan.engineer">
+      <LinkIcon class="size-4" />
+      adan.engineer
     </SocialPill>
   </nav>
 </div>
