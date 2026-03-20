@@ -136,6 +136,15 @@ game development, and spending time with my family.
     "projects.code": "Code",
     projects: [
       {
+        title: "Engineering Culture Transformation: From FTP to Modern DevOps",
+        description:
+          "At Libnova, I inherited a team that relied entirely on FTP for deployments and had no version control workflow. I led a full engineering culture transformation: introduced Git with structured branching strategies, implemented CI/CD pipelines, containerized the platform with Docker, and automated deployments with Ansible. The team progressed from zero infrastructure knowledge to confidently working with message queues (SQS, RabbitMQ), understanding software architectures and DDD patterns, and owning their deployment pipelines. Watching engineers who had never used a terminal grow into professionals who discuss domain-driven design and orchestrate Kubernetes clusters has been one of the most rewarding experiences of my career.",
+        link: "",
+        github: "",
+        image: "/projects/svgl.webp",
+        tags: ["docker", "ansible", "git", "sqs"],
+      },
+      {
         title: "An OCR in Rails — here's how I did it",
         description:
           "Inspired by the need to optimize document scanning and analysis, I developed an application in Ruby on Rails integrated with Tesseract OCR. This tool not only manages the upload of documents using Active Storage, but also extracts text from images, turning a complex task into an efficient solution. By using Tailwind CSS for frontend styling, the application allows for seamless file handling and advanced OCR capabilities, improving productivity through automation.",
@@ -307,6 +316,15 @@ el desarrollo de videojuegos, y pasar tiempo con mi familia.
     "projects.preview": "Preview",
     "projects.code": "Code",
     projects: [
+      {
+        title: "Transformación de Cultura de Ingeniería: De FTP a DevOps Moderno",
+        description:
+          "En Libnova, heredé un equipo que dependía completamente de FTP para despliegues y no tenía ningún flujo de control de versiones. Lideré una transformación completa de la cultura de ingeniería: introduje Git con estrategias de branching estructuradas, implementé pipelines CI/CD, containerricé la plataforma con Docker y automaticé despliegues con Ansible. El equipo pasó de cero conocimiento en infraestructura a trabajar con confianza con colas de mensajes (SQS, RabbitMQ), entender arquitecturas de software y patrones DDD, y ser dueños de sus propios pipelines de despliegue. Ver a ingenieros que nunca habían usado una terminal crecer hasta convertirse en profesionales que discuten diseño dirigido por dominio y orquestan clusters de Kubernetes ha sido una de las experiencias más gratificantes de mi carrera.",
+        link: "",
+        github: "",
+        image: "/projects/svgl.webp",
+        tags: ["docker", "ansible", "git", "sqs"],
+      },
       {
         title: "Un OCR en Rails, pues así lo hice",
         description:
